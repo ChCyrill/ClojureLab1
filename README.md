@@ -6,7 +6,7 @@ Chiu fuzzy cluster estimation
 
 `lein run <filename> <ra>`
 
-`<filename>` - path to a file with input data. Each row represents an array of object attributes. If the last attribute contains non-numeric characters, it is considered to be cluster name.
+`<filename>` - path to a file with input data. Each row represents an array of object attributes.
 
 `<ra>` - radius defining a neighborhood.
 
