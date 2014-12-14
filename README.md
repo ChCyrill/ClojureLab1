@@ -15,4 +15,6 @@ lein run <filename> <ra>
 
 ## Examples
 
-lein run resources/flowers.txt 1.5
+lein run DataFiles/flowers.txt 1.5
+lein run DataFiles/butterfly.txt 3.0
+lein run DataFiles/glass.txt 1.2
