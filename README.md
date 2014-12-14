@@ -2,10 +2,6 @@
 
 Chiu fuzzy cluster estimation
 
-## Installation
-
-Download from http://example.com/FIXME.
-
 ## Usage
 
 lein run <filename> <ra>
