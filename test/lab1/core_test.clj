@@ -2,6 +2,9 @@
   (:require [clojure.test :refer :all]
             [lab1.core :refer :all]))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+(deftest distance_test
+  (testing "Distance function"
+    (is (= (distance '(0, 0) '(1, 0)) 1))
+    (is (= (distance '(0, 0) '(3, 4)) 5))
+    (is (= (distance '(4, 4) '(4, 4)) 0))
+    (is (= (distance '(0, 0) '(5, 0)) (distance '(5, 0) '(0, 0))))))
