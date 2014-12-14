@@ -12,7 +12,7 @@ Chiu fuzzy cluster estimation
 
 ## Output
 
-Comma-separated list of cluster core's indexes in input file (starts with 0)
+List of cluster core's indexes in input file (starts with 0)
 
 ## Examples
 
